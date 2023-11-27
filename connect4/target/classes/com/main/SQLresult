@@ -1,0 +1,19 @@
+package com.main;
+
+public class SQLresult{
+    private String hash;
+    private float winchance;
+
+    public SQLresult(String hash, float winchance){
+        this.hash = hash;
+        this.winchance = winchance;
+    }
+
+    public String getHash(){
+        return hash;
+    }
+
+    public float getWinchance(){
+        return winchance;
+    }
+}
